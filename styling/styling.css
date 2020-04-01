@@ -1,0 +1,89 @@
+body
+    {
+        background-image: url("https://media.gettyimages.com/photos/dandelion-seed-picture-id157681198?s=612x612");
+        background-repeat: no-repeat;
+        background-size: cover;
+         margin:0;
+    }
+    h1{
+        text-align: center;
+        font-family:  Arial, Helvetica, sans-serif ;
+        color:rgb(165, 101, 42);
+        text-shadow:2px 2px 5px brown;
+        text-decoration-color: coral;
+        
+        }
+    .card-deck{
+        border-color: black;
+         border-radius: 20px; 
+         box-shadow: 3px 3px brown, -1em 0 .4em rgb(222, 213, 135); 
+         padding: 20px;
+    }
+    .card-deck .card-body{
+     background-color: bisque;
+    }
+    .card-deck.card-img-top{
+        
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    }
+    .card-deck img:hover {
+        transform: scaleX(-1);
+      }
+      h2{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: brown;
+      }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: justify;
+    }
+    
+    #reach{
+      
+    padding-left: 40px;
+    margin: 0cm;
+    align-items: stretch;
+    color:blue;
+    padding: 30px;
+    background-color:  rgba(0, 0, 0, 0.534);
+    }
+
+    #others{
+      
+        padding: 40px;
+        margin: 0cm;
+        align-items: flex-start;
+        background-image: url("https://media.gettyimages.com/photos/dandelion-seed-picture-id157681198?s=612x612");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    ul{
+        height: 50%;
+    }
+    
+    h3{
+    
+        animation:  5s linear 4s slide-left,mymove 5s ;
+        animation-iteration-count: infinite;
+
+    }
+    
+    
+    @keyframes mymove {
+      50% {color: rgb(255, 115, 0);}
+    }
+
+
+
+
+@keyframes slide-left { 
+ from {
+    margin-left: 0%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 80%;
+    width: 300%;
+  } 
+}

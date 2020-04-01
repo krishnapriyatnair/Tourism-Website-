@@ -1,0 +1,43 @@
+body{
+    
+    background-image: url("https://image.freepik.com/free-vector/abstract-blue-white-wave-background_41814-377.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#maincontent{
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+
+}
+h1
+{
+    text-align: center;
+    animation:pulse 4s 3s ease-out infinite;
+    opacity: 0;
+    color: lawngreen;
+    padding: 10px;
+   
+  
+}
+ 
+  @keyframes pulse {
+    0% {
+ opacity: 1;
+ transform: none;
+      }
+50% {
+ opacity: .8;
+ transform: scale(.5);
+}
+100% {
+ opacity: 1;
+ transform: none;
+}
+  }
+
+
+
+
