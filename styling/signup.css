@@ -17,7 +17,13 @@ h5{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+.footer{
+    background-color: rgba(0, 0, 0, 0.233);
+    color:blue;
+    padding: 20px;
+    align-items: stretch;
+    text-align: center;
+  } 
 
 
 

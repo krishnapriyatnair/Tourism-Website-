@@ -13,4 +13,11 @@ li{
     display: inline;
    
 }
+.footer{
+    background-color: rgba(0, 0, 0, 0.233);
+    color:blue;
+    padding: 20px;
+    align-items: stretch;
+    text-align: center;
+  } 
 
